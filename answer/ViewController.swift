@@ -1,11 +1,3 @@
-//
-//  ViewController.swift
-//  answer
-//
-//  Created by Genie9 on 5/21/17.
-//  Copyright © 2017 Genie9. All rights reserved.
-//
-
 import UIKit
 
 class ViewController: UIViewController {
