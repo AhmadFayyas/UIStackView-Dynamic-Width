@@ -70,3 +70,25 @@ var teacher = Teacher()
 teacher.firstName = "Alice"
 teacher.age = 31
 ```
+*Futhermore*: Since `firstName` does *not* has an initial value, we had to make sure that it -somehow- has a value. As possible solutions for such a case, we could set an initial value: `var firstName: String = ""`, or we could provide it in the initializer, also I implemented addtional initializers as:
+
+    init(firstName: String) {
+        self.firstName = firstName
+    }
+    
+    init(firstName: String, age: Int?) {
+        self.firstName = firstName
+        self.age = age
+    }
+
+Otherwise, the compiler will show the follwoing error:
+
+> error: return from initializer without initializing all stored properties
+> note: 'self.firstName' not initialized
+
+
+> - Implement addStudents() to add Cecilia, Ellen, and Bob to Alice's list of students.
+
+At this point, we have to declare `addStudents` as a `mutating` method, therefore we would be able to update the value of `students`.
+
+
