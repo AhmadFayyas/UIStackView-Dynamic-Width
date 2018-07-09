@@ -47,5 +47,26 @@ Actaully, it does without doing any extra effort so far.
 As per my discussion with the tech manager, adding "AhmadFayyas" branch is enough so far, without the need of the pull request.
 
 
-## Exercise 1:
+## Exercise 2:
 
+> - Clone the ios-exercises repo, if you haven't already.
+
+Already done (from Exercise 1).
+
+> - Open Exercise2.playground in Xcode. Fix compilation errors.
+
+Achieved, as follows:
+
+- Added `{ get set }` for `Person` protocol properties.
+- Conformed `Teacher` struct to `Person` protocol, by declaring `firstName` and `age` properties.
+- Conformed `Teacher` to `Teaching` protocol, by implementing `addStudents` method.
+
+> - Assign the teacher the name "Alice" and an age of 31.
+
+Achieved, as:
+
+```
+var teacher = Teacher()
+teacher.firstName = "Alice"
+teacher.age = 31
+```
