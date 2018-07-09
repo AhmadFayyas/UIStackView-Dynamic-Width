@@ -45,3 +45,7 @@ Actaully, it does without doing any extra effort so far.
 > 7. Submit your completed updates to the ios-exercises repo using a pull request.
 
 As per my discussion with the tech manager, adding "AhmadFayyas" branch is enough so far, without the need of the pull request.
+
+
+## Exercise 1:
+
